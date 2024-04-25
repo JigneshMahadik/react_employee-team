@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#container{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  /* background-color: tomato; */
+  flex-wrap: wrap;
+}
+#emp{
+  width: 500px;
+  background-color: rgb(75, 121, 190);
+  text-align: center;
+  border: 3px solid black;
+  margin: 30px;
+  font-weight: 700;
+}
+#rowEmp{
+  display: flex;
+  background-color: rgb(150, 170, 170);
+  justify-content: space-between;
+  margin: 20px;
+}
+#team{
+  width: 500px;
+  background-color: rgb(140, 122, 193);
+  text-align: center;
+  border: 3px solid black;
+  margin: 30px;
+  font-weight: 700;
+}
+#rowTeam{
+  display: flex;
+  background-color: rgb(150, 170, 170);
+  justify-content: space-between;
+  margin: 20px;
+}
+#average{
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+  background-color: sandybrown;
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#rowGray{
+  color: red;
+}
